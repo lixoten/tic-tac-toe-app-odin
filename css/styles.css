@@ -141,17 +141,6 @@ body {
     border-radius: 32px;
     /*margin: 0 30px;*/
 }
-@media screen and (max-width: 600px) {
-    body {
-        padding: 0;
-    }
-    #container {
-        width: 100%;
-        height: 100vh;
-        border-radius: unset;
-        border: none;
-    }
-}
 
 /* Top Grid */
 #container #header {
@@ -405,4 +394,17 @@ body {
 #title,
 .player-score-area span:first-child {
     font-family: PantonRustHeavy-GrSh, sans-serif; /*4em*/
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+    #container {
+        width: 100%;
+        height: 100vh;
+        border-radius: unset;
+        border: none;
+    }
 }
